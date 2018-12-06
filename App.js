@@ -9,7 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 
-import Routes from './routes/routes';
+// Quando importo da o erro - import Routes from './routes/routes';
 import Welcome from './routes/pages/welcome/welcome';
 
 export default class App extends Component {
