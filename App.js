@@ -13,10 +13,6 @@ import Routes from './routes/routes';
 import Welcome from './routes/pages/welcome/welcome';
 
 export default class App extends Component {
-  
-  AumentarNumero = () => {
-    this.setState({ soma: this.state.soma + 1 });
-  };
 
   render() {
     return (
